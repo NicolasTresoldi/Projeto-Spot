@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    min-width: 768px;
+}
+
+.spotify {
+    width: 117px;
+    height: 36px;
+    padding: 32px 0px 33px 51px;
+}
+
+.login {
+    flex: 3 1 0%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 32px;
+    margin-top: -.6px;
+    width: 100%;
+    height: 1042px;
+    background: linear-gradient(rgba(0, 0, 0, 0.884) .1%, rgb(0, 0, 0) 100%);
+}
+
+.box-1 {
+    height: 978px;
+    min-width: 734px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.entrar-spotify {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 80px 0px 48px;
+    font-size: 48px;
+}
+
+div > .button-container > a > button {
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    min-width: 350px;
+    height: 48px;
+    background-color: transparent;
+    color: #FFFFFFE6;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: .1px solid rgb(114, 114, 114);
+    transition: border 0.3s;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+div > .button-container > a > button > p {
+
+    font-size: 14.5px;
+    margin: 13.5px 0px 13.5px 0px;
+    width: 188px;
+    font-weight: bolder;
+}
+
+div > .button-container > a > button > h5 {
+
+    font-size: 14.5px;
+    margin: 7.5px 0px 0px 0px;
+    width: 188px;
+    font-weight: bolder;
+}
+
+.button-container > hr {
+    margin: 35px auto;
+    width: 534px;
+    border: none;
+    background-color: rgb(41, 41, 41);
+    height: .1px;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+    margin: 10px 30px;
+}
+
+.b1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.email {
+    color: #FFFFFFE6;
+    margin-right: 162px;
+}
+
+.senha {
+    color: #FFFFFFE6;
+    margin-top: 6px;
+    margin-right: 306px;
+}
+
+input {
+    color: #FFFFFFE6;
+    border-radius: 5px;
+    border: 0.1px solid rgb(114, 114, 114);
+    background-color: #121212;
+    width: 324px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 8px 14px;
+}
+
+input:focus {
+    box-shadow: inset 0px 0px 0px 3px #FFFFFFE6;
+}
+
+div > .button-verde > a > button {
+    width: 355px;
+    height: 48px;
+
+    margin-top: 90px;
+    margin-left: 190px;
+    background-color: #1ed760;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+}
+
+div > .hr2 > hr {
+    margin: 35px auto;
+    width: 534px;
+    border: none;
+    background-color: rgb(41, 41, 41);
+    height: .1px;
+}
+
+.hr2 > p {
+    color: #a7a7a7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 20px;
+    margin-top: 90px;
+}
+
+.hr2 > p > a {
+    color: white;
+    text-decoration:underline;
+}
+
+.button-verde > a  {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    color: white;
+    text-decoration:underline;
+}
+
+.button-verde > a > p {
+    margin-top: 30px;
+}
